@@ -1,0 +1,56 @@
+{
+  "details":{
+  "image":"profil.png",
+  "name":"A.Poojitha",
+  "phoneno":"+91-8762341560",
+  "email":"poojithaanumu@gmail.com",
+  "address":"4-72,tank bazar,nidamanuru,vijayawada rural,521104"
+},
+ "caree":{
+    "info":"to presure a challenging and be a part of progressive organisation that gives a scope to enhance my knowledge and utilizaing skills towaeds the growth of the organization"
+  },
+  "Education":[
+    {
+    "qualification":"B.Tech",
+    "institute":"MIC College",
+    "year":"2016-2020",
+    "percentage":"83%"
+    },
+    {
+    "qualification":"Intermediate",
+    "institute":"Chaitanya College",
+    "year":"2016",
+    "percentage":"93.5%"
+    },
+    {
+    "qualification":"10th class",
+    "institute":"Sri Vijnana Vihara",
+    "year":"2014",
+    "percentage":"94%"
+    }
+  ],
+  "Techinical":[
+    {
+    "title":"programming language:",
+    "info":["c,c++,java,python,R"]
+    },
+    {
+    "title":"Data Bases:",
+    "info":["Oracle,DBMS,RDBMS,SQL,PSQL"]
+    },
+    {
+    "title":"Operating Systems:",
+    "info":["LINUX,UNIX,UBUNTU"]
+    }
+ ],
+ "Achievements":[
+   {
+     "title":"non-Techinical",
+     "info":["won a prize in painting/drawing"]
+   },
+   {
+     "title":"Techinical",
+     "info":["paper presentation,poster presentation"]
+   }
+ ]
+}

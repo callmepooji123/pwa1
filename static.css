@@ -1,0 +1,81 @@
+.parent{
+  border: 2px solid blue;
+  padding: 2%;
+  display: flex;
+  flex-direction: row;
+}
+.child1{
+  border: 2px solid pink;
+  padding: 2%;
+  margin: 2%;
+  width: 30%;
+text-align: center;
+font-size: 30PX;
+}
+.child1 img{
+  width: 50%;
+  border: 2px solid blue;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 70%;
+  box-shadow: 5px 8px 9px black;
+}
+.child2{
+  border: 2px solid green;
+  padding: 2%;
+  margin:2%;
+  width: 50%;
+}
+h2
+{
+  color: red;
+}
+a,p{
+  word-wrap: break-word;
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+  .parent{
+    border: 2px solid blue;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+  }
+  .child1{
+    border: 2px solid pink;
+    padding: 2%;
+    margin: 2%;
+    width: 50%;
+    text-align: center;
+    font-size: 30PX;
+    background-color: lightgreen;
+  }
+  .child1 img{
+    width: 50%;
+    border: 2px solid blue;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    box-shadow: 5px 8px 9px black;
+  }
+  .child2{
+    border: 2px solid green;
+    padding: 2%;
+    margin:2%;
+    width: 50%;
+    background-color: lightyellow;
+  }
+  h2
+  {
+    color: brown;
+  }
+  a,p{
+    word-wrap: break-word;
+  }
+  .table1
+  {
+    width: 90%;
+    overflow-x: auto;
+  }
+}

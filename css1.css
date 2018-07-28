@@ -1,0 +1,160 @@
+.main{
+  border: 2px solid blue;
+  padding: 2%;
+  display: flex;
+  flex-direction: row;
+}
+.left{
+  border: 2px solid pink;
+  padding: 2%;
+  margin: 2%;
+  width: 30%;
+text-align: center;
+font-size: 30PX;
+}
+.left img{
+  width: 50%;
+  border: 2px solid blue;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+.right{
+  border: 2px solid green;
+  padding: 2%;
+  margin:2%;
+  width: 70%;
+}
+#name{
+  color: red;
+  font-size: 30px;
+  text-align: center;
+}
+h2{
+  color: red;
+}
+a{
+  color: skyblue;
+  font-style: italic;
+  font-size: 40px;
+  word-wrap: break-word;
+}
+p{
+  font-family: cursive;
+  word-wrap: break-word;
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+  .main{
+    border: 2px solid blue;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .left{
+    border: 2px solid pink;
+    padding: 2%;
+    margin: 2%;
+    width: 90%;
+    background-color: lightgreen;
+  text-align: center;
+  font-size: 30PX;
+  }
+  .left img{
+    width: 50%;
+    border: 2px solid blue;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+  }
+  .right{
+    border: 2px solid green;
+    padding: 2%;
+    margin:2%;
+    width: 90%;
+background-color: lightgray;
+  }
+  #name{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+  }
+  .table1
+  {
+    width: 90%;
+    overflow-x: auto;
+  }
+  h2{
+    color: red;
+  }
+  a{
+    color: skyblue;
+    font-style: italic;
+    font-size: 40px;
+    word-wrap: break-word;
+  }
+  p{
+    font-family: cursive;
+    word-wrap: break-word;
+  }
+}
+@media only screen and (min-width:481px) and (max-width:761px){
+  .main{
+    border: 2px solid blue;
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  .left{
+    border: 2px solid pink;
+    padding: 2%;
+    margin: 2%;
+    width: 50%;
+    background-color: lightpink;
+  text-align: center;
+  font-size: 30PX;
+  }
+  .left img{
+    width: 50%;
+    border: 2px solid blue;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+  }
+  .right{
+    border: 2px solid green;
+    padding: 2%;
+    margin:2%;
+    width: 50%;
+background-color: lightyellow;
+  }
+  #name{
+    color: darkblue;
+    font-size: 30px;
+    text-align: center;
+  }
+  .table1
+  {
+    width: 90%;
+    overflow-x: auto;
+  }
+  h2{
+    color: red;
+  }
+  a{
+    color: skyblue;
+    font-style: italic;
+    font-size: 40px;
+    word-wrap: break-word;
+    font-family:sans-serif;
+
+  }
+  p{
+    font-family: cursive;
+    word-wrap: break-word;
+  }
+}
